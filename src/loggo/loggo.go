@@ -3,7 +3,6 @@ package loggo
 import (
 	"errors"
 	"fmt"
-	"github.com/esrrhs/go-engine/src/termcolor"
 	"io"
 	"io/ioutil"
 	"os"
@@ -11,6 +10,8 @@ import (
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/xsgam/go-engine/src/termcolor"
 )
 
 const (

@@ -3,9 +3,10 @@ package fifo
 import (
 	"database/sql"
 	"errors"
-	"github.com/esrrhs/go-engine/src/loggo"
-	_ "github.com/mattn/go-sqlite3"
 	"strconv"
+
+	_ "github.com/mattn/go-sqlite3"
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type FiFo struct {

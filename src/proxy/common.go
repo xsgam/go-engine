@@ -3,15 +3,16 @@ package proxy
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/conn"
-	"github.com/esrrhs/go-engine/src/group"
-	"github.com/esrrhs/go-engine/src/loggo"
-	"github.com/golang/protobuf/proto"
 	"io"
 	"strconv"
 	"sync/atomic"
 	"time"
+
+	"github.com/golang/protobuf/proto"
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/conn"
+	"github.com/xsgam/go-engine/src/group"
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type Config struct {

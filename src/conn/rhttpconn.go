@@ -4,9 +4,6 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/group"
-	"github.com/esrrhs/go-engine/src/rbuffergo"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -15,6 +12,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/group"
+	"github.com/xsgam/go-engine/src/rbuffergo"
 )
 
 type HttpConfig struct {

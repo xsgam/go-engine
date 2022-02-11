@@ -2,10 +2,11 @@ package conn
 
 import (
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
 	"io"
 	"strings"
 	"syscall"
+
+	"github.com/xsgam/go-engine/src/common"
 )
 
 type Conn interface {

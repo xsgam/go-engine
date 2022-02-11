@@ -2,8 +2,8 @@ package frame
 
 import (
 	"fmt"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/rbuffergo"
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/rbuffergo"
 	"testing"
 )
 

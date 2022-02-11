@@ -1,8 +1,9 @@
 package texas
 
 import (
-	"github.com/esrrhs/go-engine/src/loggo"
 	"time"
+
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 func getAllCards() map[int8]int {

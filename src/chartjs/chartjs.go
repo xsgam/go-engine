@@ -3,8 +3,9 @@ package chartjs
 import (
 	"container/list"
 	"encoding/json"
-	"github.com/esrrhs/go-engine/src/loggo"
 	"time"
+
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 const (

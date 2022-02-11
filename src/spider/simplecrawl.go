@@ -2,12 +2,13 @@ package spider
 
 import (
 	"crypto/tls"
-	"github.com/PuerkitoBio/goquery"
-	"github.com/axgle/mahonia"
-	"github.com/esrrhs/go-engine/src/loggo"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/axgle/mahonia"
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 func simplecrawl(ui *URLInfo, crawlTimeout int, ctx *Content) *PageInfo {

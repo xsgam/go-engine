@@ -1,13 +1,14 @@
 package cryptonight
 
 import (
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/blake256"
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/groestl"
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/jh"
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/skein"
 	"hash"
 	"sync"
 	"unsafe"
+
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/blake256"
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/groestl"
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/jh"
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/skein"
 )
 
 var hashPool = [...]*sync.Pool{

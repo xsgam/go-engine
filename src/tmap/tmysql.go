@@ -2,8 +2,9 @@ package tmap
 
 import (
 	"database/sql"
-	"github.com/esrrhs/go-engine/src/loggo"
 	"strconv"
+
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type TMysql struct {

@@ -2,14 +2,15 @@ package proxy
 
 import (
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/conn"
-	"github.com/esrrhs/go-engine/src/group"
-	"github.com/esrrhs/go-engine/src/loggo"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
+
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/conn"
+	"github.com/xsgam/go-engine/src/group"
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type ServerConn struct {

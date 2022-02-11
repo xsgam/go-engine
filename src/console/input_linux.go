@@ -3,8 +3,6 @@ package console
 import (
 	"bytes"
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
-	"golang.org/x/sys/unix"
 	"io"
 	"os"
 	"os/exec"
@@ -14,6 +12,9 @@ import (
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/xsgam/go-engine/src/common"
+	"golang.org/x/sys/unix"
 )
 
 // tKeyCode represents a combination of a key code and modifiers.

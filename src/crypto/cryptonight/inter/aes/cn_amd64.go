@@ -1,11 +1,13 @@
+//go:build amd64
 // +build amd64
 
 package aes
 
 import (
-	"github.com/esrrhs/go-engine/src/loggo"
-	"golang.org/x/sys/cpu"
 	"unsafe"
+
+	"github.com/xsgam/go-engine/src/loggo"
+	"golang.org/x/sys/cpu"
 )
 
 var (

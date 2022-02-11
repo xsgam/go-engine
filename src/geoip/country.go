@@ -2,9 +2,10 @@ package geoip
 
 import (
 	"errors"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/oschwald/geoip2-golang"
 	"net"
+
+	"github.com/oschwald/geoip2-golang"
+	"github.com/xsgam/go-engine/src/common"
 )
 
 var gdb *geoip2.Reader

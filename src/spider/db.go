@@ -2,12 +2,13 @@ package spider
 
 import (
 	"database/sql"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/loggo"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type DB struct {

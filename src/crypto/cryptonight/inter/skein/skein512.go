@@ -4,7 +4,7 @@
 
 package skein
 
-import "github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/skein/threefish"
+import "github.com/xsgam/go-engine/src/crypto/cryptonight/inter/skein/threefish"
 
 type hashFunc struct {
 	hashsize      int

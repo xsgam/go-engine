@@ -7,8 +7,9 @@
 package skein256
 
 import (
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/skein"
 	"hash"
+
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/skein"
 )
 
 // Sum512 computes the 512 bit Skein256 checksum (or MAC if key is set) of msg

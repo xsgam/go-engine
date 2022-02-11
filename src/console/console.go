@@ -3,14 +3,15 @@ package console
 import (
 	"bufio"
 	"fmt"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/loggo"
-	"github.com/esrrhs/go-engine/src/synclist"
-	"github.com/esrrhs/go-engine/src/termcolor"
 	"os"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/xsgam/go-engine/src/common"
+	"github.com/xsgam/go-engine/src/loggo"
+	"github.com/xsgam/go-engine/src/synclist"
+	"github.com/xsgam/go-engine/src/termcolor"
 )
 
 type Console struct {

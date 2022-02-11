@@ -7,7 +7,7 @@ package skein256
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/esrrhs/go-engine/src/crypto/cryptonight/inter/skein"
+	"github.com/xsgam/go-engine/src/crypto/cryptonight/inter/skein"
 	"testing"
 )
 

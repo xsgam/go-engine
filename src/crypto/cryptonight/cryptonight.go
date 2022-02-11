@@ -2,7 +2,8 @@ package cryptonight
 
 import (
 	"encoding/hex"
-	"github.com/esrrhs/go-engine/src/loggo"
+
+	"github.com/xsgam/go-engine/src/loggo"
 )
 
 type CryptoNight struct {
